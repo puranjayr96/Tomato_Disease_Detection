@@ -6,6 +6,7 @@ import os
 ls1=os.listdir('color')
 if '.DS_Store' in ls1:
     ls1.remove('.DS_Store')
+print(ls1)
 dic1={}
 import numpy as np
 count=0
